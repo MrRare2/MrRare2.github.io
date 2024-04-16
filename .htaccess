@@ -1,0 +1,18 @@
+SetOutputFilter RATE_LIMIT
+SetEnv rate-limit 500
+#PHPINIDir /data/data/com.termux/files/home/html/noaccess/php.ini
+
+IndexOptions FancyIndexing HTMLTable  FoldersFirst
+IndexIgnore noaccess h.html f.html
+HeaderName h.html
+ReadmeName f.html
+AddIcon /icons/back.png ^^PARENTDIR^^
+AddIcon /icons/unknown.gif default
+AddIcon /icons/folder.open.gif ^^BLANKICON^^
+AddIcon /icons/image1.gif .jpg .jpeg .png .webp
+AddIcon /icons/image3.gif .svg .gif
+AddIcon /icons/text.gif .txt .md README
+AddIcon /icons/script.gif .html .php .py .c .cpp
+AddIcon /icons/binary.gif .o .so .pem .crt
+AddIcon /icons/movie.gif .mp4 .avi .webm .mpeg .3gp
+AddIcon /icons/folder.gif ^^DIRECTORY^^

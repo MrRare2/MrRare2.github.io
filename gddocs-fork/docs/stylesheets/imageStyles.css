@@ -1,0 +1,16 @@
+.admin {
+  margin: 10px;
+  border: 2px solid #344640;
+  border-radius: 7px;
+  padding: 10px;
+  background-color: #2D2D2D; 
+}
+
+.alertlayer
+{
+  margin: 10px;
+  border: 2px solid #344640;
+  border-radius: 7px;
+  padding: 10px;
+  background-color: #001033; 
+}

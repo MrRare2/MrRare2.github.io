@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Editor with Preview</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Toggle Auto Update Button -->
+<button id="toggleAutoUpdate">Toggle Auto Update</button>
+<!-- Run Button (hidden initially) -->
+<button id="run" style="display: none;">Run</button>
+
+<div id="editor" contenteditable="true" spellcheck=false autocomplete=false></div>
+
+<iframe id="preview"></iframe>
+
+<script src="editor.js"></script>
+</body>
+</html>
