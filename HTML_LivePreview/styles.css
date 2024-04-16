@@ -1,0 +1,30 @@
+@font-face {
+    font-family: NerdMono;
+    src: url(font.ttf) format("truetype");
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack children (editor and preview) vertically */
+}
+
+#editor, #preview {
+    height: 50%; /* Each takes half of the vertical space */
+    width: 100%;
+    border: none;
+    overflow: auto;
+    box-sizing: border-box; /* Ensures padding and border are included in the height */
+}
+
+#editor {
+    background-color: #f5f5f5;
+    font-family: NerdMono;
+}
+
+/* You can add styles for the buttons here if needed */
+button {
+    margin: 5px;
+    padding: 10px;
+}
