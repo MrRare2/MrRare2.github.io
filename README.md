@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @MrRare2
 - 👀 I’m interested in leaning how computers work
-- 🌱 I’m currently learning C programmin
+- 🌱 I’m currently learning C, Android dev (Java/Kotlin) and Python.
 - 📫 You can reach me at mrrare.dev@gmail.com or mateo.jimenez0518@gmail.com
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: I created my own esoteric programming language [RBF](https://github.com/MrRare/readable_brainfuck)
